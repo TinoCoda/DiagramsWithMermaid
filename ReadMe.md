@@ -4,7 +4,6 @@ You can directly generate your diagrams inside the markdown file provided that y
 Here an example of a block diagram that is also listed in the medium article related to this repository.
 
 ```Mermaid
-
 flowchart LR
     subgraph CPU["Central Processing Unit (CPU)"]
         direction TB
@@ -17,7 +16,15 @@ flowchart LR
     end
     InputUnit["Input Unit"]-->CPU 
     CPU-->OutputUnit["Output Unit"]
-
 ```
 
 The diagrams that can be plotted vary from the simple block diagrams up to more advances diagrams like UML classes or sequence diagrams. I just want to list some diagrams found on the official website of mermaid. www.mermaid.js.org
+
+```Mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+
+
+```
