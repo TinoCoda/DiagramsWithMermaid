@@ -1,8 +1,8 @@
 # Using Mermaid to Generate Cool Diagrams from Text
 
 You can directly generate your diagrams inside the markdown file provided that you have a mermaid plugin installed in your platform or IDE.
-Here an example of a block diagram that is also listed in the medium article related to this repository.\
-Code:
+Here an example of a block diagram that is also listed in the medium article related to this repository.
+
 ```mermaid
 flowchart LR
     subgraph CPU["Central Processing Unit (CPU)"]
@@ -18,6 +18,7 @@ flowchart LR
     CPU-->OutputUnit["Output Unit"]
 ```
 The code generate the previous diagram is as follows:
+Code:
 ```Mermaid
 flowchart LR
     subgraph CPU["Central Processing Unit (CPU)"]
