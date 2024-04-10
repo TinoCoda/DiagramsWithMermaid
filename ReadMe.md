@@ -20,7 +20,7 @@ flowchart LR
 
 The diagrams that can be plotted vary from the simple block diagrams up to more advances diagrams like UML classes or sequence diagrams. I just want to list some diagrams found on the official website of mermaid. www.mermaid.js.org
 
-```Mermaid
+```mermaid
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     John-->>Alice: Great!
