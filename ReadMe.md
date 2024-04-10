@@ -33,7 +33,17 @@ flowchart LR
     CPU-->OutputUnit["Output Unit"]
 ```
 
-The diagrams that can be plotted vary from the simple block diagrams up to more advances diagrams like UML classes or sequence diagrams. I just want to list some diagrams found on the official website of mermaid. www.mermaid.js.org
+The diagrams that can be plotted vary from the simple block diagrams up to more advances diagrams like UML classes or sequence diagrams. Here is a list of some diagrams that can be found on the official website of mermaid. https://mermaid.js.org/ for detailed tutorials and sample code https://mermaid.js.org/ecosystem/tutorials.html
+For each example, the code in mermaid syntax will be displayed before its generated diagram.
+
+```Mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+
+
+```
 
 ```mermaid
 sequenceDiagram
