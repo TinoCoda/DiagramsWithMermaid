@@ -3,7 +3,7 @@
 You can directly generate your diagrams inside the markdown file provided that you have a mermaid plugin installed in your platform or IDE.
 Here an example of a block diagram that is also listed in the medium article related to this repository.
 
-```Mermaid
+```mermaid
 flowchart LR
     subgraph CPU["Central Processing Unit (CPU)"]
         direction TB
