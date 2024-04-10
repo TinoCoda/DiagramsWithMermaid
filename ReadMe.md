@@ -17,7 +17,7 @@ flowchart LR
     InputUnit["Input Unit"]-->CPU 
     CPU-->OutputUnit["Output Unit"]
 ```
-The code generate the previous diagram is as follows:
+The code generate the previous diagram is as follows:\
 Code:
 ```Mermaid
 flowchart LR
